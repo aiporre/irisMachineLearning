@@ -32,11 +32,10 @@ knn.fit(X,y)
 
 # step 4
 # test model
-knn.predict([3,5,4,2]) # result array
 
 X_new  = ( [3,5,4,2] , [5,4,3,2])
-knn.predict(X_new)# predict list of lists
-
+prediction1 = knn.predict(X_new)# predict list of lists
+print "The prediction for the samples " + str(X_new)+ " is: " + str(prediction1)
 # Note 1:
 # advantege of sklearn is that use other model is easy just inst
 # other model

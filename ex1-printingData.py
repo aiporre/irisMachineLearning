@@ -10,9 +10,9 @@ type(iris)
 ## Data is numpy array because they are optimized to perform
 ## high performance computations
 print "Iris data type is               : " + str(type(iris.data))
-print "Iris response type is           : " + type(iris.target)
+print "Iris response type is           : " + str(type(iris.target))
 
 # columns are features and rows are samples
-print "Iris data set has the shape     : "+ str(iris.data.shape)
-print "Iris response set has the shape : "+ str(iris.target.shape)
+print "Iris data set has the shape     : " + str(iris.data.shape)
+print "Iris response set has the shape : " + str(iris.target.shape)
 
